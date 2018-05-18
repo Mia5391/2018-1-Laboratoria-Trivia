@@ -9,13 +9,33 @@
 
 <body>
     <div>
-        <span> Bienvenida ¿Cuál es tu nombre? <input type="text" name= "Nombre"> <br> <input type="submit" value= "Aceptar">  </span>
+            
+       <span id= "Name"> Bienvenida ¿Cuál es tu nombre? <input type="text" name= "Nombre">
+             <br> <input type="submit" value= "Aceptar">  </span>
+
     </div>
     <div>
             <h2>Preguntas Trivia Laboratoria
                 <ol>
-                    <li id= "Question1">¿Han egresado hombres en Laboratoria? <br> <input type="button" value= "Si"> <input type="button" value= "No"> </li>
-                    <li id= "Question2">¿Hay laboratoria en concepción? <br> <input type="button" value= "Si"> <input type="button" value= "No"> </li>
+                                                   
+                                
+                                
+                    <li>¿Han egresado hombres en Laboratoria? <br> 
+                        <p id="correcto"><button onclick="myFunction()">No</button> </p> 
+                        <p id="incorrecto"><button onclick="myFunction2()">Si</button> </p> 
+                        <script>
+                                function myFunction() {
+                                    document.getElementById("correcto").innerHTML = "¡Muy bien!";
+                                }
+                                </script>
+                        <script>
+                                function myFunction2() {
+                                    document.getElementById("incorrecto").innerHTML = "No han egresado hombres";
+                                }
+                                </script>
+                        
+                     </li>
+                    <li>¿Hay laboratoria en concepción? <br> <input type="button" value= "Si"> <input type="button" value= "No"> </li>
                     </ol>
                 </div>      
             </h2>
