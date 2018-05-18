@@ -20,23 +20,35 @@
                                                    
                                 
                                 
-                    <li>¿Han egresado hombres en Laboratoria? <br> 
-                        <p id="correcto"><button onclick="myFunction()">No</button> </p> 
-                        <p id="incorrecto"><button onclick="myFunction2()">Si</button> </p> 
+                    <li>¿Han egresado hombres en Laboratoria? 
+                        <p id="correcto1"><button onclick="myFunction()">No</button> </p> 
+                        <p id="incorrecto1"><button onclick="myFunction2()">Si</button> </p> 
                         <script>
                                 function myFunction() {
-                                    document.getElementById("correcto").innerHTML = "¡Muy bien!";
+                                    document.getElementById("correcto1").innerHTML = "¡Muy bien!";
                                 }
                                 </script>
                         <script>
                                 function myFunction2() {
-                                    document.getElementById("incorrecto").innerHTML = "No han egresado hombres";
+                                    document.getElementById("incorrecto1").innerHTML = "No han egresado hombres";
                                 }
                                 </script>
                         
                      </li>
-                    <li>¿Hay laboratoria en concepción? <br> <input type="button" value= "Si"> <input type="button" value= "No"> </li>
-                    </ol>
+                    <li>¿Hay laboratoria en concepción? </li>
+                        <p id="correcto2"><button onclick="myFunction3()">No</button> </p> 
+                        <p id="incorrecto2"><button onclick="myFunction4()">Si</button> </p> 
+                    <script>
+                            function myFunction3() {
+                                document.getElementById("correcto2").innerHTML = "¡Muy bien!";
+                            }
+                            </script>
+                    <script>
+                            function myFunction4() {
+                                document.getElementById("incorrecto2").innerHTML = "No hay laboratoria en Concepción";
+                            }
+                            </script>    
+                </ol>
                 </div>      
             </h2>
         

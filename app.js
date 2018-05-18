@@ -1,7 +1,6 @@
 window.onload = function() {
     
-   
-   
+   //No hemos utilizado esto, lo dejamos en caso de tener que usarlo.
         var answer1 = ("¿han egresado hombres en Laboratoria? s/n");
         if (answer1.toLowerCase() == "n") {
             document.getElementById("rightAnswersText").innerHTML =
@@ -31,7 +30,4 @@ window.onload = function() {
                 "<p>No hay laboratoria en concepción</p>"
             "</div>";
         }
-    } else {
-        document.getElementById("warningMessage").innerText = "Bueno Chao";
-    }
 }
