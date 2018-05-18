@@ -1,7 +1,7 @@
 window.onload = function() {
     
-    var wantToPlay = ("¿quieres jugar? s/n");
-    if (wantToPlay.toLowerCase() == "s") {
+   
+   
         var answer1 = ("¿han egresado hombres en Laboratoria? s/n");
         if (answer1.toLowerCase() == "n") {
             document.getElementById("rightAnswersText").innerHTML =
